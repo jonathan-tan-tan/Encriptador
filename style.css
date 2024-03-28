@@ -51,7 +51,7 @@ body{
 
 .espacio-encriptador p{
     font-size: 12px;
-    
+    margin-bottom: 10px;
     
     font-family: Arial, Helvetica, sans-serif;
     color: #000;
@@ -87,14 +87,40 @@ body{
 }
 
 .espacio-resultado{
+    
     text-align: center;
     background: #ffffff;
     display: inline-block;
     width: 400px;
-    height:750px;
+    height:800px;
     vertical-align: top;
     margin-right: 40px;
     margin-bottom: 40px;
     border-radius: 32px;
+    
+}
+
+.espacio-resultado textarea{
+  
+    border: none;
+    resize: none;
+    outline: none;
+    height: auto;
+    padding: 40px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-top: 40px;
+}
+
+.espacio-resultado h3{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+.espacio-resultado p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+  
 }
 
