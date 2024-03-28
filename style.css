@@ -1,13 +1,100 @@
+body{
+    background: #f3f5fc;
+}
+.espacio-total{
+    text-align: right;
+    height: 750px;
+}
+
+.logo-alura{
+    
+    height: 40px;
+    width: auto;
+    margin: 40px;
+    display: block;
+}   
+
 .espacio-encriptador{
-    background: #cccccc;
+    text-align: center;
+    background: #f3f5fc;
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+    vertical-align: top;
+
+   
+}
+
+.espacio-encriptador textarea{
+   
+    background: #f3f5fc;
+    border: none;
+    resize: none;
+    outline: none;
+    width: 70%;
+    height: 75%;
+    padding: 40px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-top: 40px;
+    
+}
+
+::placeholder{
+    color:#0A3871;
+}
+
+.espacio-encriptador img{
+    height: 12px;
+    vertical-align: text-top;
+}
+
+.espacio-encriptador p{
+    font-size: 12px;
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+#boton-encriptar{
+    height: 67px;
+    width: 328px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 24px;
+    color: white;
+    background: #0A3871;
+    border: none;
+    position: relative;
+    vertical-align: bottom;
+}
+
+    
+
+#boton-desencriptar{
+    all: unset;
+    height: 67px;
+    width: 328px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 24px;
+    background:  #D8DFE8;
+    color:  #0A3871;
+    border: solid 1px;
+    border-color: #0A3871;
+    
+}
+
+.espacio-resultado{
+    text-align: center;
+    background: #ffffff;
     display: inline-block;
     width: 400px;
-    height: 940px;
+    height:750px;
+    vertical-align: top;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    border-radius: 32px;
 }
-.espacio-resultado{
-background: #777777;
-display: inline-block;
-width: 400px;
-height: 700px;
-vertical-align: top;
-}
+
