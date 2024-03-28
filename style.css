@@ -1,0 +1,13 @@
+.espacio-encriptador{
+    background: #cccccc;
+    display: inline-block;
+    width: 400px;
+    height: 940px;
+}
+.espacio-resultado{
+background: #777777;
+display: inline-block;
+width: 400px;
+height: 700px;
+vertical-align: top;
+}
