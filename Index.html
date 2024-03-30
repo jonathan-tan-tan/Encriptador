@@ -19,9 +19,9 @@
          
         <div class="espacio-encriptador">
                
-            <textarea required placeholder="Ingrese texto aqui" ></textarea>
+            <textarea  id="texto-usuario" placeholder="Ingrese texto aqui" ></textarea>
             <p><img src="images/sig.png" alt="simbolo advertencia">  Solo letras minusculas y sin acentos</p>
-            <button id="boton-encriptar">encriptar</button>
+            <button onclick="desifrar();" id="boton-encriptar">encriptar</button>
             <button id="boton-desencriptar">desencriptar</button>
    
        </div>
@@ -32,11 +32,11 @@
             <textarea ></textarea>
             <img src="images/Muñeco.png" alt="">
            <h3>Ningun mensaje fue encontrado</h3>
-           <p> Ingresa el texto que deseas encriptar o desencriptar.</p>
+           <p > Ingresa el texto que deseas encriptar o desencriptar.</p>
        </div>
 
     </div>
     
-    
+    <script src="app.js"></script>
 </body>
 </html>
